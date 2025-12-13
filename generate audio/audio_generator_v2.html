@@ -320,7 +320,12 @@
             
             selectedIndices.forEach((index, pos) => {
                 const qori = audioData[index];
-                const folderNum = String(pos + 2).padStart(2, '0'); // 02, 03, etc.
+                let folderNum;
+                if (pos < 8) {
+                    folderNum = String(pos + 2).padStart(2, '0'); // 02 to 09
+                } else {
+                    folderNum = String(pos + 3).padStart(2, '0'); // 10 to 13
+                }
                 const downloads = [];
                 
                 for (let i = 1; i <= 114; i++) {
@@ -335,7 +340,7 @@
                     downloads.push({
                         url: url,
                         filename: `${surahId}.mp3`,
-                        folder: `quran/${folderNum}/`
+                        folder: `IsicopyKeSDCard/${folderNum}/`
                     });
                 }
                 allDownloads.push(...downloads);
@@ -354,7 +359,15 @@
         }
 
         function generateHtmlTemplate(selectedIndices) {
-            const qoriOptions = selectedIndices.map((idx, pos) => `<option value="p${pos + 2}">${audioData[idx].name}</option>`).join('\n                    ');
+            const qoriOptions = selectedIndices.map((idx, pos) => {
+                let value;
+                if (pos < 8) {
+                    value = `p${pos + 2}`; // p2 to p9
+                } else {
+                    value = `pl${pos - 7}`; // pl1 to pl4
+                }
+                return `<option value="${value}">${audioData[idx].name}</option>`;
+            }).join('\n                    ');
             return `<div class="form-group" style="margin-top: 16px;">
                 <label>Playlist</label>
                 <select id="playlist">
