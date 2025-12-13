@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Generator V2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .header {
+            background: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 1.5rem;
+            margin-bottom: 5px;
+        }
+        .header p {
+            opacity: 0.9;
+            font-size: 0.9rem;
+        }
+        .content {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: #4CAF50;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 5px;
+        }
+        .qori-list {
+            max-height: 300px;
+            overflow-y: auto;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 10px;
+        }
+        .qori-item {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border-bottom: 1px solid #f0f0f0;
+            transition: background 0.2s;
+        }
+        .qori-item:hover {
+            background: #f8f9fa;
+        }
+        .qori-item:last-child {
+            border-bottom: none;
+        }
+        .qori-checkbox {
+            margin-right: 10px;
+        }
+        .qori-name {
+            flex: 1;
+            font-weight: 500;
+        }
+        .audio-preview {
+            color: #4CAF50;
+            cursor: pointer;
+            font-size: 1.2rem;
+        }
+        .generate-btn {
+            width: 100%;
+            background: #4CAF50;
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .generate-btn:hover {
+            background: #45a049;
+        }
+        .generate-btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+        .output-section {
+            margin-top: 20px;
+        }
+        .toggle-btn {
+            background: #2196F3;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+        .links-container {
+            display: none;
+            max-height: 200px;
+            overflow-y: auto;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 10px;
+            background: #f9f9f9;
+        }
+        .link-item {
+            margin: 5px 0;
+            font-size: 0.9rem;
+        }
+        .link-item a {
+            color: #2196F3;
+            text-decoration: none;
+        }
+        .link-item a:hover {
+            text-decoration: underline;
+        }
+        textarea {
+            width: 100%;
+            height: 150px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 10px;
+            font-family: monospace;
+            font-size: 0.8rem;
+            resize: vertical;
+        }
+        .download-btn {
+            background: #FF9800;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            cursor: pointer;
+            margin-top: 5px;
+            margin-right: 5px;
+        }
+        .download-btn:hover {
+            background: #F57C00;
+        }
+        .selected-count {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        @media (max-width: 480px) {
+            body { padding: 10px; }
+            .header { padding: 15px; }
+            .header h1 { font-size: 1.3rem; }
+            .content { padding: 15px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><i class="fas fa-music"></i> Audio Generator V2</h1>
+            <p>Select up to 12 Qori for Quran Audio Download</p>
+        </div>
+        
+        <div class="content">
+            <div class="section">
+                <div class="section-title"><i class="fas fa-list"></i> Select Qori (Max 12)</div>
+                <div class="selected-count">Selected: <span id="selectedCount">0</span>/12</div>
+                <div id="qoriCheckboxes" class="qori-list"></div>
+            </div>
+            
+            <button id="generateBtn" class="generate-btn" onclick="generate()" disabled>
+                <i class="fas fa-cogs"></i> Generate Files
+            </button>
+            
+            <div class="output-section">
+                <div class="section-title">
+                    <i class="fas fa-download"></i> Download Links
+                    <button class="toggle-btn" onclick="toggleLinks()">
+                        <i class="fas fa-eye"></i> Toggle
+                    </button>
+                </div>
+                <div id="links" class="links-container"></div>
+                
+                <div class="section-title"><i class="fas fa-code"></i> HTML Template</div>
+                <textarea id="htmlOutput" readonly placeholder="Generated HTML will appear here..."></textarea>
+                <button class="download-btn" onclick="downloadHtml()">
+                    <i class="fas fa-download"></i> Download HTML
+                </button>
+                
+                <div class="section-title"><i class="fas fa-database"></i> JSON Data</div>
+                <textarea id="jsonOutput" readonly placeholder="Generated JSON will appear here..."></textarea>
+                <button class="download-btn" onclick="downloadJson()">
+                    <i class="fas fa-download"></i> Download JSON
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let audioData = [];
+        let audioElements = {};
+
+        // Load audio.json
+        fetch('datas/audio.json')
+            .then(response => response.json())
+            .then(data => {
+                audioData = data;
+                populateQoriList();
+            })
+            .catch(error => console.error('Error loading audio.json:', error));
+
+        function populateQoriList() {
+            const container = document.getElementById('qoriCheckboxes');
+            audioData.forEach((qori, index) => {
+                const div = document.createElement('div');
+                div.className = 'qori-item';
+                
+                const checkbox = document.createElement('input');
+                checkbox.type = 'checkbox';
+                checkbox.className = 'qori-checkbox';
+                checkbox.value = index;
+                checkbox.id = `qori${index}`;
+                checkbox.addEventListener('change', updateSelection);
+                
+                const nameSpan = document.createElement('span');
+                nameSpan.className = 'qori-name';
+                nameSpan.textContent = qori.name;
+                
+                const previewIcon = document.createElement('i');
+                previewIcon.className = 'fas fa-play audio-preview';
+                previewIcon.title = 'Preview Audio';
+                previewIcon.onclick = () => toggleAudio(index, previewIcon);
+                
+                // Create hidden audio element
+                const audio = document.createElement('audio');
+                audio.preload = 'none';
+                const source = document.createElement('source');
+                source.src = `https://download.quranicaudio.com/quran/${qori.relative_path}001.mp3`;
+                source.type = 'audio/mpeg';
+                audio.appendChild(source);
+                audioElements[index] = audio;
+                
+                div.appendChild(checkbox);
+                div.appendChild(nameSpan);
+                div.appendChild(previewIcon);
+                div.appendChild(audio);
+                
+                container.appendChild(div);
+            });
+        }
+
+        function toggleAudio(index, icon) {
+            const audio = audioElements[index];
+            if (audio.paused) {
+                // Stop other audios
+                Object.values(audioElements).forEach(a => a.pause());
+                document.querySelectorAll('.audio-preview').forEach(i => i.className = 'fas fa-play audio-preview');
+                
+                audio.play();
+                icon.className = 'fas fa-pause audio-preview';
+            } else {
+                audio.pause();
+                icon.className = 'fas fa-play audio-preview';
+            }
+            
+            audio.onended = () => {
+                icon.className = 'fas fa-play audio-preview';
+            };
+        }
+
+        function updateSelection() {
+            const checked = document.querySelectorAll('#qoriCheckboxes input[type="checkbox"]:checked');
+            const count = checked.length;
+            document.getElementById('selectedCount').textContent = count;
+            
+            const checkboxes = document.querySelectorAll('#qoriCheckboxes input[type="checkbox"]');
+            const maxSelected = 12;
+            
+            if (count >= maxSelected) {
+                checkboxes.forEach(cb => {
+                    if (!cb.checked) cb.disabled = true;
+                });
+            } else {
+                checkboxes.forEach(cb => cb.disabled = false);
+            }
+            
+            document.getElementById('generateBtn').disabled = count === 0;
+        }
+
+        function generate() {
+            const checkboxes = document.querySelectorAll('#qoriCheckboxes input[type="checkbox"]:checked');
+            const selectedIndices = Array.from(checkboxes).map(cb => parseInt(cb.value));
+            
+            if (selectedIndices.length > 12) {
+                alert('Please select up to 12 qori only');
+                return;
+            }
+
+            // Generate download links and data for all selected qori
+            const linksDiv = document.getElementById('links');
+            linksDiv.innerHTML = '';
+            const allDownloads = [];
+            
+            selectedIndices.forEach((index, pos) => {
+                const qori = audioData[index];
+                const folderNum = String(pos + 2).padStart(2, '0'); // 02, 03, etc.
+                const downloads = [];
+                
+                for (let i = 1; i <= 114; i++) {
+                    const surahId = String(i).padStart(3, '0');
+                    const url = `https://download.quranicaudio.com/quran/${qori.relative_path}${surahId}.mp3`;
+                    
+                    const linkDiv = document.createElement('div');
+                    linkDiv.className = 'link-item';
+                    linkDiv.innerHTML = `<a href="${url}" target="_blank">${qori.name} - Surah ${i}</a>`;
+                    linksDiv.appendChild(linkDiv);
+                    
+                    downloads.push({
+                        url: url,
+                        filename: `${surahId}.mp3`,
+                        folder: `quran/${folderNum}/`
+                    });
+                }
+                allDownloads.push(...downloads);
+            });
+
+            // Generate HTML template
+            const htmlTemplate = generateHtmlTemplate(selectedIndices);
+            document.getElementById('htmlOutput').value = htmlTemplate;
+
+            // Generate JSON
+            const jsonData = {
+                selectedQori: selectedIndices.map(idx => audioData[idx]),
+                downloads: allDownloads
+            };
+            document.getElementById('jsonOutput').value = JSON.stringify(jsonData, null, 2);
+        }
+
+        function generateHtmlTemplate(selectedIndices) {
+            const qoriOptions = selectedIndices.map((idx, pos) => `<option value="p${pos + 2}">${audioData[idx].name}</option>`).join('\n                    ');
+            return `<div class="form-group" style="margin-top: 16px;">
+                <label>Playlist</label>
+                <select id="playlist">
+                    <option value="p1">audio adzan</option>
+${qoriOptions}
+                    <option value="pl5">audio doa</option>
+                </select>
+            </div>`;
+        }
+
+        function toggleLinks() {
+            const links = document.getElementById('links');
+            links.style.display = links.style.display === 'none' ? 'block' : 'none';
+        }
+
+        function downloadHtml() {
+            const html = document.getElementById('htmlOutput').value;
+            downloadFile('generated_playlist.html', html);
+        }
+
+        function downloadJson() {
+            const json = document.getElementById('jsonOutput').value;
+            downloadFile('generated_audio.json', json);
+        }
+
+        function downloadFile(filename, content) {
+            const blob = new Blob([content], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }
+    </script>
+</body>
+</html>

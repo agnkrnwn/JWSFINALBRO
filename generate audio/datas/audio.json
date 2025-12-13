@@ -1,0 +1,1266 @@
+[
+    {
+        "id": 55,
+        "name": "Al-Hussayni Al-'Azazy (with Children)",
+        "arabic_name": "الحسيني العزازي مع اطفال",
+        "relative_path": "alhusaynee_al3azazee_with_children/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 87,
+        "name": "Hatem Farid - Taraweeh 1431",
+        "arabic_name": null,
+        "relative_path": "hatem_farid/taraweeh1431/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 88,
+        "name": "Mostafa Ismaeel",
+        "arabic_name": "مصطفى إسماعيل",
+        "relative_path": "mostafa_ismaeel/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 123,
+        "name": "Madinah Taraweeh 1435",
+        "arabic_name": null,
+        "relative_path": "madinah_1435/",
+        "file_formats": "mp3",
+        "section_id": 2
+    },
+    {
+        "id": 16,
+        "name": "Mahmoud Khaleel Al-Husary",
+        "arabic_name": "محمود خليل الحصري",
+        "relative_path": "mahmood_khaleel_al-husaree/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 17,
+        "name": "Sahl Yasin",
+        "arabic_name": "سهل ياسين",
+        "relative_path": "sahl_yaaseen/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 18,
+        "name": "Salah Bukhatir",
+        "arabic_name": "صلح بوخاطر",
+        "relative_path": "salaah_bukhaatir/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 19,
+        "name": "Ahmed ibn Ali al-Ajmy",
+        "arabic_name": "أحمد بن علي العجمي",
+        "relative_path": "ahmed_ibn_3ali_al-3ajamy/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 20,
+        "name": "Sudais and Shuraym",
+        "arabic_name": "السديس والشريم",
+        "relative_path": "sodais_and_shuraim/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 1,
+        "name": "Abdullah Awad al-Juhani",
+        "arabic_name": "عبدالله عواد الجهني",
+        "relative_path": "abdullaah_3awwaad_al-juhaynee/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 2,
+        "name": "Abdullah Basfar",
+        "arabic_name": "عبدالله بصفر",
+        "relative_path": "abdullaah_basfar/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 3,
+        "name": "Abu Bakr al-Shatri",
+        "arabic_name": "أبو بكر الشاطرى",
+        "relative_path": "abu_bakr_ash-shaatree/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 4,
+        "name": "Sa`ud ash-Shuraym",
+        "arabic_name": "سعود الشريم",
+        "relative_path": "sa3ood_al-shuraym/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 5,
+        "name": "Mishari Rashid al-`Afasy",
+        "arabic_name": "مشاري راشد العفاسي",
+        "relative_path": "mishaari_raashid_al_3afaasee/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 6,
+        "name": "Muhammad Siddiq al-Minshawi",
+        "arabic_name": "محمد صديق المنشاوي",
+        "relative_path": "muhammad_siddeeq_al-minshaawee/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 7,
+        "name": "Abdur-Rahman as-Sudais",
+        "arabic_name": "عبدالرحمن السديس",
+        "relative_path": "abdurrahmaan_as-sudays/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 8,
+        "name": "Ali Abdur-Rahman al-Huthaify",
+        "arabic_name": "علي عبدالرحمن الحذيفي",
+        "relative_path": "huthayfi/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 9,
+        "name": "Khalid al-Qahtani",
+        "arabic_name": "خالد القحطاني",
+        "relative_path": "khaalid_al-qahtaanee/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 12,
+        "name": "Muhammad Jibreel",
+        "arabic_name": "محمد جبريل",
+        "relative_path": "muhammad_jibreel/complete/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 13,
+        "name": "Saad al-Ghamdi",
+        "arabic_name": "سعد الغامدي",
+        "relative_path": "sa3d_al-ghaamidi/complete/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 35,
+        "name": "Saleh al Taleb",
+        "arabic_name": "صالح آل طالب",
+        "relative_path": "saleh_al_taleb/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 37,
+        "name": "AbdulBaset AbdulSamad [Murattal]",
+        "arabic_name": "عبد الباسط عبد الصمد - مرتل",
+        "relative_path": "abdul_basit_murattal/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 41,
+        "name": "Muhammad Siddiq al-Minshawi [Mujawwad]",
+        "arabic_name": "محمد صديق المنشاوي - مجود",
+        "relative_path": "minshawi_mujawwad/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 43,
+        "name": "Salah al-Budair",
+        "arabic_name": "صلح البدير",
+        "relative_path": "salahbudair/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 15,
+        "name": "AbdulBari ath-Thubaity",
+        "arabic_name": "عبدالباري الثبيتي",
+        "relative_path": "thubaity/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 14,
+        "name": "Fares Abbad",
+        "arabic_name": "فارس عباد",
+        "relative_path": "fares/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 11,
+        "name": "AbdulMuhsin al-Qasim",
+        "arabic_name": "عبد المحسن القاسم",
+        "relative_path": "abdul_muhsin_alqasim/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 10,
+        "name": "Nabil ar-Rifai",
+        "arabic_name": "نبيل الرفاعي",
+        "relative_path": "nabil_rifa3i/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 40,
+        "name": "AbdulWadud Haneef",
+        "arabic_name": "عبد الودود حنيف",
+        "relative_path": "abdulwadood_haneef/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 44,
+        "name": "Aziz Alili",
+        "arabic_name": "عزيز عليلى",
+        "relative_path": "aziz_alili/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 104,
+        "name": "Nasser Al Qatami",
+        "arabic_name": null,
+        "relative_path": "nasser_bin_ali_alqatami/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 85,
+        "name": "Hatem Farid",
+        "arabic_name": "حاتم فريد",
+        "relative_path": "hatem_farid/collection/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 50,
+        "name": "AbdulBaset AbdulSamad [Mujawwad]",
+        "arabic_name": "عبد الباسط عبد الصمد - مجود",
+        "relative_path": "abdulbaset_mujawwad/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 53,
+        "name": "Muhammad al-Luhaidan",
+        "arabic_name": "محمد اللحيدان",
+        "relative_path": "muhammad_alhaidan/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 56,
+        "name": "Ibrahim Al-Jibreen [1426-1427]",
+        "arabic_name": "إبراهيم الجبرين - ١٤٢٦-١٤٢٧",
+        "relative_path": "jibreen/jibreen_1426-1427/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 61,
+        "name": "Sadaqat `Ali",
+        "arabic_name": "صدقات علي",
+        "relative_path": "sadaqat_ali/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 64,
+        "name": "Hamad Sinan",
+        "arabic_name": "حامد سنان",
+        "relative_path": "hamad_sinan/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 105,
+        "name": "Khalid Al Ghamdi",
+        "arabic_name": null,
+        "relative_path": "khalid_alghamdi/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 78,
+        "name": "Mahmoud Khalil Al-Husary [Doori]",
+        "arabic_name": "محمود خليل الحصري - دوري",
+        "relative_path": "mahmood_khaleel_al-husaree_doori/",
+        "file_formats": "mp3",
+        "section_id": 3
+    },
+    {
+        "id": 68,
+        "name": "Abdur-Razaq bin Abtan al-Dulaimi [Mujawwad]",
+        "arabic_name": "عبد الرزاق بن عبطان الدليمي - مجود",
+        "relative_path": "abdulrazaq_bin_abtan_al_dulaimi/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 70,
+        "name": "Muhammad Abdul-Kareem",
+        "arabic_name": "محمد عبدالكريم",
+        "relative_path": "muhammad_abdulkareem/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 71,
+        "name": "Mustafa al-`Azawi",
+        "arabic_name": "مصطفى العزاوى",
+        "relative_path": "mustafa_al3azzawi/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 72,
+        "name": "Abdullah Khayat",
+        "arabic_name": "عبدالله خياط",
+        "relative_path": "khayat/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 74,
+        "name": "Dr. Shawqy Hamed [Murattal]",
+        "arabic_name": "الدكتور شوقي حامد - مرتل",
+        "relative_path": "dr.shawqy_7amed/murattal/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 75,
+        "name": "Dr. Shawqy Hamed [Mujawwad]",
+        "arabic_name": "الدكتور شوقي حامد - مجود",
+        "relative_path": "dr.shawqy_7amed/mujawwad/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 79,
+        "name": "Muhammad Hassan",
+        "arabic_name": "محمد حسان",
+        "relative_path": "mu7ammad_7assan/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 80,
+        "name": "Salah Al-Hashim",
+        "arabic_name": "صلح الهاشم",
+        "relative_path": "salah_alhashim/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 81,
+        "name": "Adel Kalbani",
+        "arabic_name": null,
+        "relative_path": "adel_kalbani/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 54,
+        "name": "AbdulBaset AbdulSamad [Warsh]",
+        "arabic_name": "عبد الباسط عبد الصمد - ورش",
+        "relative_path": "abdulbaset_warsh/",
+        "file_formats": "mp3",
+        "section_id": 3
+    },
+    {
+        "id": 60,
+        "name": "Abdur-Rashid Sufi [Soosi]",
+        "arabic_name": "عبد الرشيد صوفي - السوسي",
+        "relative_path": "abdurrashid_sufi_soosi_rec/",
+        "file_formats": "mp3",
+        "section_id": 3
+    },
+    {
+        "id": 62,
+        "name": "Abdur-Rashid Sufi [Khalaf]",
+        "arabic_name": "عبد الرشيد صوفي - خلف",
+        "relative_path": "abdurrashid_sufi_-_khalaf_3an_7amza_recitation/",
+        "file_formats": "mp3",
+        "section_id": 3
+    },
+    {
+        "id": 51,
+        "name": "Maher al-Muaiqly [Assorted]",
+        "arabic_name": "ماهر المعيقلى - متنوعة",
+        "relative_path": "maher_almu3aiqly/year1424-1425/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 52,
+        "name": "Maher al-Muaiqly [1422-1423]",
+        "arabic_name": "ماهر المعيقلى - ١٤٢٢-١٤٢٣",
+        "relative_path": "maher_almu3aiqly/year1422-1423/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 65,
+        "name": "Maher al-Muaiqly",
+        "arabic_name": "ماهر المعيقلى",
+        "relative_path": "maher_256/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 86,
+        "name": "Hatem Farid - Taraweeh 1432",
+        "arabic_name": "حاتم فريد",
+        "relative_path": "hatem_farid/taraweeh1432/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 90,
+        "name": "Muhammad Sulaiman Patel",
+        "arabic_name": null,
+        "relative_path": "muhammad_patel/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 91,
+        "name": "Mohammad Al-Tablawi",
+        "arabic_name": "محمد الطبلاوي",
+        "relative_path": "mohammad_altablawi/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 92,
+        "name": "Mohammad Ismaeel Al-Muqaddim",
+        "arabic_name": null,
+        "relative_path": "mohammad_ismaeel_almuqaddim/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 93,
+        "name": "Imad Zuhair Hafez",
+        "arabic_name": "عماد زهير حافظ",
+        "relative_path": "imad_zuhair_hafez/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 31,
+        "name": "Saad al-Ghamdi (Partial)",
+        "arabic_name": "سعد الغامدي - غير مكتمل",
+        "relative_path": "sa3d_al-ghaamidi/hidayah/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 95,
+        "name": "Mishari al-`Afasy - Taraweeh 1430",
+        "arabic_name": "مشاري بن راشد العفاسي",
+        "relative_path": "mishaari_california/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 96,
+        "name": "Hatem Farid - Taraweeh 1433",
+        "arabic_name": "حاتم فريد",
+        "relative_path": "hatem_farid/taraweeh1433/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 97,
+        "name": "Yasser ad-Dussary",
+        "arabic_name": null,
+        "relative_path": "yasser_ad-dussary/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 103,
+        "name": "Ibrahim Al Akhdar",
+        "arabic_name": null,
+        "relative_path": "ibrahim_al_akhdar/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 110,
+        "name": "Abdur-Rashid Sufi [Abi al-Haarith an al-Kasaa'ee]",
+        "arabic_name": null,
+        "relative_path": "abdurrashid_sufi_abi_al7arith/",
+        "file_formats": "mp3",
+        "section_id": 3
+    },
+    {
+        "id": 111,
+        "name": "Abdur-Rashid Sufi [ad-Doori an Abi Amr]",
+        "arabic_name": null,
+        "relative_path": "abdurrashid_sufi_doori/",
+        "file_formats": "mp3",
+        "section_id": 3
+    },
+    {
+        "id": 112,
+        "name": "Abdur-Rashid Sufi [Shu'bah an Asim]",
+        "arabic_name": null,
+        "relative_path": "abdurrashid_sufi_shu3ba/",
+        "file_formats": "mp3",
+        "section_id": 3
+    },
+    {
+        "id": 114,
+        "name": "Ali al-Huthaify [Qaloon]",
+        "arabic_name": null,
+        "relative_path": "huthayfi_qaloon/",
+        "file_formats": "mp3",
+        "section_id": 3
+    },
+    {
+        "id": 36,
+        "name": "Sudais and Shuraym with Aslam Athar [Pickthall Translation]",
+        "arabic_name": "السديس والشريم مع اسلم اظهر - ترجمة معاني القران الكريم باللغة النجليزية - بيكثال",
+        "relative_path": "sudais_shuraim_and_english/",
+        "file_formats": "mp3",
+        "section_id": 4
+    },
+    {
+        "id": 42,
+        "name": "Shakir Qasami with Aslam Athar [Pickthall Translation]",
+        "arabic_name": "شاكر قاسمى مع اسلم اظهر - ترجمة معاني القران الكريم باللغة النجليزية - بيكثال",
+        "relative_path": "shakir_qasami_with_english/",
+        "file_formats": "mp3",
+        "section_id": 4
+    },
+    {
+        "id": 47,
+        "name": "AbdulBaset AbdulSamad with Naeem Sultan [Pickthall Translation]",
+        "arabic_name": "عبد الباسط عبد الصمد مع نعيم سلطان - ترجمة معاني القران الكريم باللغة النجليزية - بيكثال",
+        "relative_path": "abdulbaset_with_naeem_sultan_pickthall/",
+        "file_formats": "mp3",
+        "section_id": 4
+    },
+    {
+        "id": 48,
+        "name": "Sudais and Shuraym with Naeem Sultan [Pickthall Translation]",
+        "arabic_name": "السديس والشريم مع نعيم سلطان - ترجمة معاني القران الكريم باللغة النجليزية - بيكثال",
+        "relative_path": "sudais_shuraim_with_naeem_sultan_pickthall/",
+        "file_formats": "mp3",
+        "section_id": 4
+    },
+    {
+        "id": 106,
+        "name": "AbdulKareem Al Hazmi",
+        "arabic_name": null,
+        "relative_path": "abdulkareem_al_hazmi/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 108,
+        "name": "Abdul-Mun'im Abdul-Mubdi'",
+        "arabic_name": null,
+        "relative_path": "abdulmun3im_abdulmubdi2/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 113,
+        "name": "Ahmad al-Huthaify",
+        "arabic_name": null,
+        "relative_path": "ahmad_alhuthayfi/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 49,
+        "name": "Mishari ibn Rashid al-`Afasy with Saabir [Muhsin Khan Translation]",
+        "arabic_name": "مشارى راشد مع صابر - ترجمة معاني القران الكريم باللغة النجليزية - محسن خان",
+        "relative_path": "mishaari_with_saabir_mkhan/",
+        "file_formats": "mp3",
+        "section_id": 4
+    },
+    {
+        "id": 21,
+        "name": "AbdulAzeez al-Ahmad",
+        "arabic_name": "عبدالعزيز الحمد",
+        "relative_path": "abdulazeez_al-ahmad/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 22,
+        "name": "Muhammad Ayyoob",
+        "arabic_name": "محمد أيوب",
+        "relative_path": "muhammad_ayyoob/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 158,
+        "name": "Abdullah Ali Jabir",
+        "arabic_name": "عبدالله علي جابر",
+        "relative_path": "ali_jaber/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 57,
+        "name": "AbdulBaset AbdulSamad with Ibrahim Walk [Saheeh Intl Translation]",
+        "arabic_name": "عبد الباسط عبد الصمد مع إبراهيم واق - ترجمة معاني القران الكريم باللغة النجليزية - صحيح الدولي",
+        "relative_path": "abdulbasit_w_ibrahim_walk_si/",
+        "file_formats": "mp3",
+        "section_id": 4
+    },
+    {
+        "id": 32,
+        "name": "Muhammad Jibreel (Partial)",
+        "arabic_name": "محمد جبريل - غير مكتمل",
+        "relative_path": "muhammad_jibreel/hidayah/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 58,
+        "name": "Mishari ibn Rashid al-`Afasy with Ibrahim Walk [Saheeh Intl Translation]",
+        "arabic_name": "مشارى راشد مع إبراهيم واق - ترجمة معاني القران الكريم باللغة النجليزية - صحيح الدولي",
+        "relative_path": "mishaari_w_ibrahim_walk_si/",
+        "file_formats": "mp3",
+        "section_id": 4
+    },
+    {
+        "id": 66,
+        "name": "Abdullah Basfar with Ibrahim Walk [Saheeh Intl Translation]",
+        "arabic_name": "عبد الله بصفر مع إبراهيم واق - ترجمة معاني القران الكريم باللغة النجليزية - صحيح الدولي",
+        "relative_path": "abdullah_basfar_w_ibrahim_walk_si/",
+        "file_formats": "mp3",
+        "section_id": 4
+    },
+    {
+        "id": 67,
+        "name": "Sudais and Shuraym [Urdu Translation]",
+        "arabic_name": "السديس والشريم - ترجمة معاني القران الكريم باللغة الردية",
+        "relative_path": "sudais_and_shuraim_with_urdu/",
+        "file_formats": "mp3",
+        "section_id": 4
+    },
+    {
+        "id": 25,
+        "name": "Madinah Taraweeh 1419",
+        "arabic_name": "تراويح المدينة ١٤١٩",
+        "relative_path": "madinah_1419/",
+        "file_formats": "mp3",
+        "section_id": 2
+    },
+    {
+        "id": 29,
+        "name": "Makkah Taraweeh 1426",
+        "arabic_name": "تراويح مكة ١٤٢٦",
+        "relative_path": "makkah_1426/",
+        "file_formats": "mp3",
+        "section_id": 2
+    },
+    {
+        "id": 30,
+        "name": "Madinah Taraweeh 1426",
+        "arabic_name": "تراويح المدينة ١٤٢٦",
+        "relative_path": "madinah_1426/",
+        "file_formats": "mp3",
+        "section_id": 2
+    },
+    {
+        "id": 33,
+        "name": "Madinah Taraweeh 1427",
+        "arabic_name": "تراويح المدينة ١٤٢٧",
+        "relative_path": "madinah_1427/",
+        "file_formats": "mp3",
+        "section_id": 2
+    },
+    {
+        "id": 34,
+        "name": "Makkah Taraweeh 1427",
+        "arabic_name": "تراويح مكة ١٤٢٧",
+        "relative_path": "makkah_1427/",
+        "file_formats": "mp3",
+        "section_id": 2
+    },
+    {
+        "id": 45,
+        "name": "Makkah Taraweeh 1425",
+        "arabic_name": "تراويح مكة ١٤٢٥",
+        "relative_path": "makkah_1425/",
+        "file_formats": "mp3",
+        "section_id": 2
+    },
+    {
+        "id": 102,
+        "name": "Madinah Taraweeh 1433",
+        "arabic_name": null,
+        "relative_path": "madinah_1433/",
+        "file_formats": "mp3",
+        "section_id": 2
+    },
+    {
+        "id": 109,
+        "name": "Abdur-Rashid Sufi",
+        "arabic_name": null,
+        "relative_path": "abdurrashid_sufi/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 46,
+        "name": "Madinah Taraweeh 1423",
+        "arabic_name": "تراويح المدينة ١٤٢٣",
+        "relative_path": "madinah_1423/",
+        "file_formats": "mp3",
+        "section_id": 2
+    },
+    {
+        "id": 23,
+        "name": "Tawfeeq ibn Sa`id as-Sawa'igh",
+        "arabic_name": "توفيق بن سعيد الصائغ",
+        "relative_path": "tawfeeq_bin_saeed-as-sawaaigh/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 26,
+        "name": "Muhammad al-Mehysni",
+        "arabic_name": "محمد المحيسني",
+        "relative_path": "mehysni/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 59,
+        "name": "Makkah Taraweeh 1428",
+        "arabic_name": "تراويح مكة ١٤٢٨",
+        "relative_path": "makkah_1428/",
+        "file_formats": "mp3",
+        "section_id": 2
+    },
+    {
+        "id": 115,
+        "name": "Abu Bakr al-Shatri [Taraweeh]",
+        "arabic_name": null,
+        "relative_path": "abu_bakr_ash-shatri_tarawee7/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 116,
+        "name": "Idrees Abkar",
+        "arabic_name": null,
+        "relative_path": "idrees_akbar/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 118,
+        "name": "Masjid Quba Taraweeh 1434",
+        "arabic_name": null,
+        "relative_path": "masjid_quba_1434/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 119,
+        "name": "Muhammad Khaleel",
+        "arabic_name": null,
+        "relative_path": "muhammad_khaleel/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 63,
+        "name": "Makkah Taraweeh 1424",
+        "arabic_name": "تراويح مكة ١٤٢٤",
+        "relative_path": "makkah_1424/",
+        "file_formats": "mp3",
+        "section_id": 2
+    },
+    {
+        "id": 73,
+        "name": "Madinah Taraweeh 1428",
+        "arabic_name": "تراويح المدينة ١٤٢٨",
+        "relative_path": "madinah_1428/",
+        "file_formats": "mp3",
+        "section_id": 2
+    },
+    {
+        "id": 77,
+        "name": "Makkah Taraweeh 1429",
+        "arabic_name": "تراويح مكة ١٤٢٩",
+        "relative_path": "makkah_1429/",
+        "file_formats": "mp3",
+        "section_id": 2
+    },
+    {
+        "id": 82,
+        "name": "Makkah Taraweeh 1430",
+        "arabic_name": null,
+        "relative_path": "makkah_1430/",
+        "file_formats": "mp3",
+        "section_id": 2
+    },
+    {
+        "id": 83,
+        "name": "Makkah Taraweeh 1431",
+        "arabic_name": "تراويح مكة",
+        "relative_path": "makkah_1431/",
+        "file_formats": "mp3",
+        "section_id": 2
+    },
+    {
+        "id": 84,
+        "name": "Madinah Taraweeh 1431",
+        "arabic_name": null,
+        "relative_path": "madinah_1431/",
+        "file_formats": "mp3",
+        "section_id": 2
+    },
+    {
+        "id": 94,
+        "name": "Makkah Taraweeh 1432",
+        "arabic_name": "تراويح مكة",
+        "relative_path": "makkah_1432/",
+        "file_formats": "mp3",
+        "section_id": 2
+    },
+    {
+        "id": 98,
+        "name": "Makkah Taraweeh 1433",
+        "arabic_name": "تراويح مكة",
+        "relative_path": "makkah_1433/",
+        "file_formats": "mp3",
+        "section_id": 2
+    },
+    {
+        "id": 99,
+        "name": "Madinah Taraweeh 1429",
+        "arabic_name": null,
+        "relative_path": "madinah_1429/",
+        "file_formats": "mp3",
+        "section_id": 2
+    },
+    {
+        "id": 100,
+        "name": "Madinah Taraweeh 1430",
+        "arabic_name": null,
+        "relative_path": "madinah_1430/",
+        "file_formats": "mp3",
+        "section_id": 2
+    },
+    {
+        "id": 101,
+        "name": "Madinah Taraweeh 1432",
+        "arabic_name": null,
+        "relative_path": "madinah_1432/",
+        "file_formats": "mp3",
+        "section_id": 2
+    },
+    {
+        "id": 120,
+        "name": "Makkah Taraweeh 1434",
+        "arabic_name": null,
+        "relative_path": "makkah_1434/",
+        "file_formats": "mp3",
+        "section_id": 2
+    },
+    {
+        "id": 156,
+        "name": "Sa`ud ash-Shuraym [older recitation]",
+        "arabic_name": "سعود الشريم",
+        "relative_path": "sa3ood_al-shuraym/older/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 27,
+        "name": "Hani ar-Rifai",
+        "arabic_name": "هاني الرفاعي",
+        "relative_path": "rifai/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 28,
+        "name": "Ibrahim Al-Jibrin",
+        "arabic_name": "إبراهيم الجبرين",
+        "relative_path": "jibreen/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 121,
+        "name": "Muhammad al-Mehysni - Taraweeh 1435",
+        "arabic_name": null,
+        "relative_path": "muhaisny_1435/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 122,
+        "name": "Mahmoud Khaleel Al-Husary",
+        "arabic_name": null,
+        "relative_path": "mahmood_khaleel_al-husaree_iza3a/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 128,
+        "name": "Ali Hajjaj Alsouasi",
+        "arabic_name": null,
+        "relative_path": "ali_hajjaj_alsouasi/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 129,
+        "name": "Mahmood Ali Al-Bana",
+        "arabic_name": null,
+        "relative_path": "mahmood_ali_albana/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 130,
+        "name": "Wadee Hammadi Al Yamani",
+        "arabic_name": null,
+        "relative_path": "wadee_hammadi_al-yamani/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 124,
+        "name": "Abdullah Matroud",
+        "arabic_name": null,
+        "relative_path": "abdullah_matroud/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 125,
+        "name": "AbdulWadood Haneef",
+        "arabic_name": null,
+        "relative_path": "abdul_wadood_haneef_rare/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 126,
+        "name": "Ahmad Nauina",
+        "arabic_name": null,
+        "relative_path": "ahmad_nauina/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 127,
+        "name": "Akram Al-Alaqmi",
+        "arabic_name": null,
+        "relative_path": "akram_al_alaqmi/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 131,
+        "name": "Makkah Taraweeh 1435",
+        "arabic_name": null,
+        "relative_path": "makkah_1435/",
+        "file_formats": "mp3",
+        "section_id": 2
+    },
+    {
+        "id": 132,
+        "name": "Makkah Taraweeh 1436",
+        "arabic_name": null,
+        "relative_path": "makkah_1436/",
+        "file_formats": "mp3",
+        "section_id": 2
+    },
+    {
+        "id": 133,
+        "name": "Makkah Taraweeh 1437",
+        "arabic_name": null,
+        "relative_path": "makkah_1437/",
+        "file_formats": "mp3",
+        "section_id": 2
+    },
+    {
+        "id": 134,
+        "name": "Fatih Seferagic",
+        "arabic_name": null,
+        "relative_path": "fatih_seferagic/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 135,
+        "name": "Asim Abdul Aleem",
+        "arabic_name": null,
+        "relative_path": "asim_abdulaleem/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 136,
+        "name": "Abdallah Abdal",
+        "arabic_name": null,
+        "relative_path": "abdallah_abdal/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 137,
+        "name": "Abdur-Rashid Sufi [Soosi, 2020]",
+        "arabic_name": "عبد الرشيد صوفي - السوسي",
+        "relative_path": "abdurrashid_sufi_soosi_2020/",
+        "file_formats": "mp3",
+        "section_id": 3
+    },
+    {
+        "id": 138,
+        "name": "Adel Kalbani",
+        "arabic_name": null,
+        "relative_path": "adel_kalbani_1437/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 139,
+        "name": "Hatem Farid - Taraweeh 1430",
+        "arabic_name": "حاتم فريد",
+        "relative_path": "hatem_farid/taraweeh1430/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 140,
+        "name": "Hatem Farid - Taraweeh 1434",
+        "arabic_name": "حاتم فريد",
+        "relative_path": "hatem_farid/taraweeh1434/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 141,
+        "name": "Mahmoud Khaleel Al-Husary (Muallam)",
+        "arabic_name": "محمود خليل الحصري (معلم)",
+        "relative_path": "husary_muallim/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 142,
+        "name": "Mahmoud Khaleel Al-Husary (with Children)",
+        "arabic_name": "محمود خليل الحصري (المعلم للاطفال)",
+        "relative_path": "husary_muallim_kids_repeat/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 143,
+        "name": "Madinah Taraweeh 1434",
+        "arabic_name": "تراويح المدينة ١٤٣٤",
+        "relative_path": "madinah_1434/",
+        "file_formats": "mp3",
+        "section_id": 2
+    },
+    {
+        "id": 157,
+        "name": "Sudais and Shuraym [older recitation]",
+        "arabic_name": "سعود الشريم",
+        "relative_path": "sodais_and_shuraim/older/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 69,
+        "name": "Abdullah Ali Jabir",
+        "arabic_name": "عبدالله علي جابر - ستديو",
+        "relative_path": "abdullaah_alee_jaabir_studio/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 24,
+        "name": "Abdullah Ali Jabir [Taraweeh]",
+        "arabic_name": "عبدالله علي جابر",
+        "relative_path": "abdullaah_alee_jaabir/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 144,
+        "name": "Madinah Taraweeh 1436",
+        "arabic_name": "تراويح المدينة ١٤٣٦",
+        "relative_path": "madinah_1436/",
+        "file_formats": "mp3",
+        "section_id": 2
+    },
+    {
+        "id": 145,
+        "name": "Madinah Taraweeh 1437",
+        "arabic_name": "تراويح المدينة ١٤٣٧",
+        "relative_path": "madinah_1437/",
+        "file_formats": "mp3",
+        "section_id": 2
+    },
+    {
+        "id": 146,
+        "name": "Madinah Taraweeh 1439",
+        "arabic_name": "تراويح المدينة ١٤٣٩",
+        "relative_path": "madinah_1439/",
+        "file_formats": "mp3",
+        "section_id": 2
+    },
+    {
+        "id": 147,
+        "name": "Madinah Taraweeh 1440",
+        "arabic_name": "تراويح المدينة ١٤٤٠",
+        "relative_path": "madinah_1440/",
+        "file_formats": "mp3",
+        "section_id": 2
+    },
+    {
+        "id": 148,
+        "name": "Madinah Taraweeh 1441",
+        "arabic_name": "تراويح المدينة ١٤٤١",
+        "relative_path": "madinah_1441/",
+        "file_formats": "mp3",
+        "section_id": 2
+    },
+    {
+        "id": 149,
+        "name": "Madinah Taraweeh 1442",
+        "arabic_name": "تراويح المدينة ١٤٤١",
+        "relative_path": "madinah_1442/",
+        "file_formats": "mp3",
+        "section_id": 2
+    },
+    {
+        "id": 150,
+        "name": "Makkah Taraweeh 1438",
+        "arabic_name": "تراويح مكة ١٤٣٨",
+        "relative_path": "makkah_1438/",
+        "file_formats": "mp3",
+        "section_id": 2
+    },
+    {
+        "id": 151,
+        "name": "Makkah Taraweeh 1439",
+        "arabic_name": "تراويح مكة ١٤٣٩",
+        "relative_path": "makkah_1439/",
+        "file_formats": "mp3",
+        "section_id": 2
+    },
+    {
+        "id": 152,
+        "name": "Makkah Taraweeh 1440",
+        "arabic_name": "تراويح مكة ١٤٤٠",
+        "relative_path": "makkah_1440/",
+        "file_formats": "mp3",
+        "section_id": 2
+    },
+    {
+        "id": 153,
+        "name": "Makkah Taraweeh 1441",
+        "arabic_name": "تراويح مكة ١٤٤١",
+        "relative_path": "makkah_1441/",
+        "file_formats": "mp3",
+        "section_id": 2
+    },
+    {
+        "id": 154,
+        "name": "Makkah Taraweeh 1442",
+        "arabic_name": "تراويح مكة ١٤٤٢",
+        "relative_path": "makkah_1442/",
+        "file_formats": "mp3",
+        "section_id": 2
+    },
+    {
+        "id": 155,
+        "name": "Noreen Siddiq [ad-Doori an Abi Amr]",
+        "arabic_name": "الشيخ نورين محمد صديق رواية الدوري عن ابي عامر",
+        "relative_path": "noreen_siddiq/",
+        "file_formats": "mp3",
+        "section_id": 3
+    },
+    {
+        "id": 159,
+        "name": "Maher al-Muaiqly",
+        "arabic_name": "ماهر المعيقلى",
+        "relative_path": "maher_almu3aiqly/year1440/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 107,
+        "name": "Muhammad Ayyoob [Taraweeh]",
+        "arabic_name": null,
+        "relative_path": "muhammad_ayyoob_hq/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 39,
+        "name": "Muhammad Ayyub with Mikaal Waters [Muhsin Khan Translation]",
+        "arabic_name": "محمد أيوب مع ميكال وترز - ترجمة معاني القران الكريم باللغة النجليزية - محسن خان",
+        "relative_path": "muhammad_ayub_and_mikaal_waters/",
+        "file_formats": "mp3",
+        "section_id": 4
+    },
+    {
+        "id": 160,
+        "name": "Bandar Baleela",
+        "arabic_name": null,
+        "relative_path": "bandar_baleela/complete/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 161,
+        "name": "Khalifah Taniji",
+        "arabic_name": null,
+        "relative_path": "khalifah_taniji/",
+        "file_formats": "mp3",
+        "section_id": 1
+    },
+    {
+        "id": 117,
+        "name": "Bandar Baleela",
+        "arabic_name": null,
+        "relative_path": "bandar_baleela/",
+        "file_formats": "mp3",
+        "section_id": 1
+    }
+]
